@@ -20,7 +20,7 @@ const router = createBrowserRouter(
 
 const App = () => {
   return (
-    <div className="font-popin">
+    <div className="font-monts">
       <React.StrictMode>
         <RouterProvider router={router} />
       </React.StrictMode>
