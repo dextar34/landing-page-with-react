@@ -16,7 +16,7 @@ const order1 = {
   order4:
     "img   order-1 md:order-2 flex justify-center md:block relative w-full md:w-auto -z-1",
   order5:
-    "txt    flex flex-col justify-center items-center mx-2   text-center  ",
+    "txt    flex flex-col justify-center items-center mx-auto   text-center ",
 };
 
 const showMe = {
@@ -66,15 +66,15 @@ const SectionPart = ({
             <img
               src={src}
               alt={alt}
-              className={cn("w-[80%] max-w-[400px] md:w-auto md:scale-110")}
+              className={cn("w-[80%]  max-w-[400px] md:w-auto md:scale-110")}
             />
           </div>
         </div>
         {/* Text Section */}
-        <div className={cn('mx-1',order1[sl1], showMe[d] || showMe.default)}>
+        <div className={cn("  ", order1[sl1], showMe[d] || showMe.default)}>
           <Title title={title1} />
-          <Header className={cn("pt-5  md:w-[550px] mx-auto")} header={title} />
-          <Content className={cn("py-6 w-[800px] mx-auto")}>
+          <Header className={cn("pt-5 md:w-[350px]  xl:w-[550px] mx-auto")} header={title} />
+          <Content className={cn("py-6 xl:w-[800px] mx-auto")}>
             <p>{txt}</p>
           </Content>
         </div>
