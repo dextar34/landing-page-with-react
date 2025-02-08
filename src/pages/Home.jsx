@@ -75,7 +75,7 @@ const Home = () => {
           "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui  magnis facilisis at fringilla quam."
         }
         display={"hide"}
-        className={"pb-5 pt-32 "}
+        className={"pb-5 pt-32 flex justify-center items-center mx-auto w-[300px] md:w-[450px] "}
         sl1={"order5"}
         title1={"Work"}
         displayMe={"hidden"}
@@ -96,7 +96,7 @@ const Home = () => {
           "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui  magnis facilisis at fringilla quam."
         }
         display={"hide"}
-        className={"pb-5 pt-32"}
+        className={"pb-5 pt-32 mx-auto "}
         sl1={"order5"}
         title1={"Testimonial"}
         displayMe={"hidden"}
@@ -110,6 +110,7 @@ const Home = () => {
             txt={
               "Lorem ipsum dolor sit amet consectetur. Non tincidunt magna non et elit. Dolor  turpis molestie dui magnis facilisis at fringilla quam."
             }
+            className={'w-[300px]  mx-auto md:w-[650px]'}
           />
         </Container>
       </div>

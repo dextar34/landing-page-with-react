@@ -74,7 +74,7 @@ const SectionPart = ({
         <div className={cn("  ", order1[sl1], showMe[d] || showMe.default)}>
           <Title title={title1} />
           <Header className={cn("pt-5 md:w-[350px]  xl:w-[550px] mx-auto")} header={title} />
-          <Content className={cn("py-6 xl:w-[800px] mx-auto")}>
+          <Content className={cn("py-6 w-[300px] text-center xl:w-[800px] mx-auto")}>
             <p>{txt}</p>
           </Content>
         </div>

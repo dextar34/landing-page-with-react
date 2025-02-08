@@ -24,7 +24,7 @@ const Button = ({ text, bgColor, icon, className }) => {
        
       )}
     >
-      <div className={cn('md:text-2xl font-bold ')}>{text}</div>
+      <div className={cn('text-sm md:text-2xl font-bold ')}>{text}</div>
       <div className={cn( "transition-transform group-hover:translate-x-3 w-10",divShow[icon])}><FaArrowRight className={cn("md:text-2xl",)} />
       </div>
     </button>
