@@ -22,13 +22,13 @@ import SectionPart from "../components/SectionPart";
 const Home = () => {
   return (
     <div>
-      <div className={cn("")}>
+      <div className={cn("relative")}>
         <Nav className={" scale-95"} />
         <img
           src={P1}
           alt=""
           className={cn(
-            "absolute top-0 right-0 -z-2 sm:scale-125 w-[35%] md:w-[50%] xl:w-[40%]"
+            "absolute top-0 right-0 -z-2 sm:scale-125 w-[35%] md:w-[50%] xl:w-[30%] "
           )}
         />
       </div>
